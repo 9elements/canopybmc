@@ -165,7 +165,7 @@
         }
     },
     "15": {
-        "name": "ipmi_kcs4",
+        "name": "ipmi_kcs5",
         "is_valid": true,
         "active_sessions": 0,
         "channel_info": {

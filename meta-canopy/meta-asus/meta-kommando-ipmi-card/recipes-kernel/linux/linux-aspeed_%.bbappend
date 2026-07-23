@@ -10,6 +10,8 @@ SRC_URI:append:kommando-ipmi-card = " \
      file://v4-0004-serial-8250_aspeed_vuart-add-VUART-over-PCI.patch \
      file://v4-0006-ARM-dts-aspeed-g6-Change-vuart-compatible-string-.patch \
      file://v4-0007-ARM-dts-aspeed-g6-add-aspeed-vuart-over-pci-prop-.patch \
+     file://pcie-lpc/v2-0001-ipmi-kcs_bmc_aspeed-g6-Add-KCS-Channel-4-over-PCI.patch \
+     file://pcie-lpc/v2-0002-ARM-dts-aspeed-g6-add-pcie-kcs4.patch \
     "
 
 do_configure:prepend:kommando-ipmi-card() {

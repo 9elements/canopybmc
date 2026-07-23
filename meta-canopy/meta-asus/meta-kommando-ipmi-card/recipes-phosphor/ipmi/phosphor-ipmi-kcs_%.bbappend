@@ -1,5 +1,5 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/${PN}:"
-KCS_DEVICE = "ipmi_kcs4"
+KCS_DEVICE = "ipmi_kcs5"
 
 SRC_URI += "file://99-ipmi-kcs.rules"
 
