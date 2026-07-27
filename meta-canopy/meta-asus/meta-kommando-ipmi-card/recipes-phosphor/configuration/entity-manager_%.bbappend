@@ -5,7 +5,7 @@ SRC_URI += " \
 "
 
 do_install:append() {
-    # Remove all default configs 
+    # Remove all default configs
     # The card doesn't have any direct access to FRU
     # This saves us ~3.2 MiB in rofs.
     find ${D}${datadir}/${BPN}/configurations \
